@@ -1,5 +1,5 @@
 # Лабораторная работа 3
-
+УРАААААА УРАА УРААА
 ## Задача
 
 Реализовать упрощенную [модель песчаной кучи](https://en.wikipedia.org/wiki/Abelian_sandpile_model), которая позволяет сохранять свои состояния в картинку в [формате BMP](https://en.wikipedia.org/wiki/BMP_file_format).
