@@ -1,0 +1,8 @@
+add_library(
+    reading_file_lib
+    reading_file.h
+    reading_file.cpp
+)
+
+target_link_libraries(reading_file_lib PRIVATE sandpile_model_lib)
+target_link_libraries(reading_file_lib PRIVATE parsing_args_lib)

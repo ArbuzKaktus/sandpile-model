@@ -1,0 +1,5 @@
+add_library(
+    charpointer_func_lib
+    charpointer_func.h
+    charpointer_func.cpp
+)

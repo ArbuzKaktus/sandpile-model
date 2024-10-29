@@ -1,0 +1,17 @@
+include_directories(
+    "${CMAKE_CURRENT_SOURCE_DIR}/parsing_args_lib/"
+    "${CMAKE_CURRENT_SOURCE_DIR}/sandpile_model_lib/"
+    "${CMAKE_CURRENT_SOURCE_DIR}/bmp_picture_lib/"
+    "${CMAKE_CURRENT_SOURCE_DIR}/charpointer_func_lib/"
+    "${CMAKE_CURRENT_SOURCE_DIR}/reading_file_lib/"
+)
+
+add_subdirectory(parsing_args_lib)
+add_subdirectory(sandpile_model_lib)
+add_subdirectory(bmp_picture_lib)
+add_subdirectory(charpointer_func_lib)
+add_subdirectory(reading_file_lib)
+
+
+# target_include_directories(reading_file_lib PRIVATE "sandpile_model_lib")
+# target_include_directories(bmp_picture_lib PRIVATE "sandpile_model_lib")

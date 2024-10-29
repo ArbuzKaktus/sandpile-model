@@ -1,0 +1,11 @@
+set(CMAKE_BUILD_TYPE Release)
+add_executable(Sandpile main.cpp)
+
+target_link_libraries(Sandpile PRIVATE parsing_args_lib)
+target_link_libraries(Sandpile PRIVATE charpointer_func_lib)
+target_link_libraries(Sandpile PRIVATE reading_file_lib)
+target_link_libraries(Sandpile PRIVATE sandpile_model_lib)
+
+target_include_directories(${PROJECT_NAME} PRIVATE "../lib/parsing_args_lib")
+target_include_directories(${PROJECT_NAME} PRIVATE "../lib/sandpile_model_lib")
+

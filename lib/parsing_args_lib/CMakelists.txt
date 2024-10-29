@@ -1,0 +1,5 @@
+add_library(
+    parsing_args_lib
+    parsing_args.h
+    parsing_args.cpp
+)

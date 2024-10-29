@@ -1,0 +1,9 @@
+add_library(
+    sandpile_model_lib
+    sandpile_model.h
+    sandpile_model.cpp
+)
+
+target_link_libraries(sandpile_model_lib PRIVATE parsing_args_lib)
+target_link_libraries(sandpile_model_lib PRIVATE bmp_picture_lib)
+target_link_libraries(sandpile_model_lib PRIVATE reading_file_lib)

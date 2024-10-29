@@ -1,0 +1,7 @@
+add_library(
+    bmp_picture_lib
+    bmp_picture.h
+    bmp_picture.cpp
+)
+
+target_link_libraries(bmp_picture_lib PRIVATE sandpile_model_lib)
